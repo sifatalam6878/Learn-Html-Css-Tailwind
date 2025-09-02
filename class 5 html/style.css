@@ -1,0 +1,102 @@
+
+.banner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-image{
+    width: 45%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+.banner-text{
+    width: 45%;
+}
+
+.banner-text h1{
+    font: 40px;
+    color: blue;
+}
+
+.banner-text h3{
+    font-size: 30px;
+    color: green;
+}
+
+.banner-text p{
+    font-size: 14px;
+    color: gray;
+}
+
+@media screen and (min-width: 993px) {
+    .banner{
+        background-color: lightcoral;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .banner{
+        background-color: lightblue;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+    .banner{
+        background-color: yellow;
+        display: block;
+    }
+    .banner-image, .banner-text{
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px 0 ;
+    }
+}
+
+
+
+
+/* animation */
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: duraduri 10s infinite;
+    position: relative;
+}
+
+@keyframes duraduri {
+    0%{
+        left: 0px;
+        top: 0px;
+        background-color: green;
+    }
+    25%{
+        left: 200px;
+        top: 0px;
+        background-color: blue;
+    }
+    50%{
+        left: 200px;
+        top: 200px;
+        background-color: yellow;
+    }
+    75%{
+        left: 0px;
+        top: 200px;
+        background-color: purple;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: green;
+    }
+}
+
+    
