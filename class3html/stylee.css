@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff8f3;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-image: url(./bg.jpg);
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  text-align: center;
+}
+
+.pizza-img {
+  max-width: 100%;
+  width: 350px;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.badge {
+  background: #ff00c8;
+  color: rgb(42, 15, 15);
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #bacad7;
+  margin-bottom: 15px;
+}
+
+h1 .highlight {
+  color: #ff3c00;
+}
+
+.delivery {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #444;
+}
+
+.delivery img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.order-btn {
+  background: #89290b;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #cd3f13;
+}
+
+.contact {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}

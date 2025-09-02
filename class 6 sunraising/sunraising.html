@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SunRaising</title>
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(166, 221, 242);
+            animation: bgchange 5s ;
+        }
+
+        #sun{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-color: yellow;
+            box-shadow: 0 0 50px 20px yellow;
+            position: relative;
+            left: 47%;
+            top: 25%;
+            animation: raising 5s ;
+        }
+
+        @keyframes raising{
+            0%{
+                top: 100%;
+                background-color: orange;
+                box-shadow: 0 0 50px 20px orange;
+            }
+            100%{
+                top: 25%;
+                background-color: yellow;
+                box-shadow: 0 0 50px 20px yellow;
+            }
+        }
+
+        @keyframes bgchange{
+            0%{
+                background-color: rgb(73, 92, 110);
+            }
+            100%{
+                background-color: rgb(166, 221, 242);
+            }
+        }
+
+    </style>
+
+</head>
+<body >
+    <div id="sun"></div>
+    <div>
+        <!-- tailwiend css intro -->
+        <h1 class="text-[30px] text-center text-orange-700 font-bold">
+            Sun Raising Animation
+        </h1>
+    </div>
+</body>
+</html>

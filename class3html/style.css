@@ -1,0 +1,31 @@
+#hero{
+    background-image: url('./—Pngtree—red\ stripes\ texture\ texture\ banner_1296650.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#sub-title{
+    color: yellow;
+}
+#title{
+    color: white;
+    font-size: 60px;
+    /*line-height: 55px;*/
+    margin-right: 90px;
+}
+.btn{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #EE284B;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    background-color: #562EFF;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+
+#logo-text{
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right: 20px;
+    color: #fff;
+}
+
+.main-content-area{
+    background-color: #f3f1fe;
+    padding: 50px;
+}
+
+.player-heading{
+    margin: 10 0 25px 0;
+    padding: 10px;
+    color:#562EFF ;
+}
+
+.players{
+    background-color: #fff;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.player-conrainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+/* @media screen and (max-width: 425px){
+    .menu ul{
+        display: none;
+    }
+
+    .menu:hover ul{
+        display: block;
+    }
+}
+@media screen and (max-width: 992px){
+    
+}
+@media screen and (max-width: 1280px){
+    
+} */
